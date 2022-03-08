@@ -1,3 +1,58 @@
 body {
-    text-align: center;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 65px;
+    padding-right: 85px;
+}
+
+.title h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000C2D;
+    margin: 0px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #000C2D;
+    margin: 0px 45px;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #45CAFF;
+    height: 40px;
+    padding: 2px 15px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+.gradient-text {
+    background-color: #45CAFF;
+    background-image: linear-gradient(45deg, #E81CFF 0.3%, #45CAFF 103.65%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
