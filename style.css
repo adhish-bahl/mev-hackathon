@@ -6,12 +6,13 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     padding-left: 65px;
     padding-right: 85px;
 }
 
 .title h3 {
+    align-self: center;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -57,4 +58,57 @@ body {
     -moz-text-fill-color: transparent;
 }
 
-/* Section One */
+.gradient-text:hover {
+    background-color: #FFFFFF;
+    background-size: 100%;
+    background-repeat: repeat;
+    color: #FFFFFF;
+}
+
+.register-button:hover {
+    background: linear-gradient(81.15deg, #E81CFF 0%, #45CAFF 100%);
+}
+
+.banner {
+    height: 450px;
+    background-image: url(../banner-image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+}
+
+.banner-content h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 7px 0px;
+}
+
+.banner-content p {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.banner-content button {
+    padding: 16px 25px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+}
