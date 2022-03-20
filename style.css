@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 85px;
+}
+
+.title h3 {
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000C2D;
+    margin: 0px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #000C2D;
+    margin: 0px 45px;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #45CAFF;
+    height: 40px;
+    padding: 2px 15px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+.gradient-text {
+    background-color: #45CAFF;
+    background-image: linear-gradient(45deg, #E81CFF 0.3%, #45CAFF 103.65%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text:hover {
+    color: linear-gradient(45deg, #E81CFF 0.3%, #45CAFF 103.65%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.register-button:hover {
+    background: linear-gradient(81.15deg, #E81CFF 0%, #45CAFF 100%);
+    color: #ffffff;
+}
+
+.banner {
+    height: 450px;
+    background-image: url(./images-illustrations/banner-image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+}
+
+.banner-content h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 7px 0px;
+    margin-top: 60px;
+}
+
+.banner-content p {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.banner-content button {
+    padding: 16px 25px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+/* GRID */
+
+/* .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+
+.one {
+    display: flex;
+    padding: 5rem 15rem;
+}
+
+.desc1 {
+    padding-right: 5rem;
+}
+
+.desc2 {
+    padding-left: 5rem;
+}
+
+.illustration {
+    width: 30rem;
+    height: 15rem;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+.gradient-text2 {
+    background-color: #45CAFF;
+    background-image: linear-gradient(45deg, #E81CFF 0.3%, #45CAFF 103.65%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text2:hover {
+    background: linear-gradient(89.16deg, #FF0059 0.3%, #45CAFF 103.65%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
