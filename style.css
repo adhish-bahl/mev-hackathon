@@ -81,17 +81,35 @@ li, a {
 }
 
 .banner {
-    height: 450px;
+    /* background-color: rgb(224,217,252); */
+    background-color: rgb(243,240,255);
+}
+
+.banner1 {
+    height: 470px;
     background-image: url(./images-illustrations/banner-image.png);
     background-size: cover;
     background-position: center;
+}
+
+.banner2 {
+    background-image: url(./images-illustrations/banner2.png);
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    /* height: 300px; */
     flex-direction: column;
 }
 
@@ -160,17 +178,21 @@ li, a {
 }
 
 .logo {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    /* height: 25px; */
+    margin: 5px 20px;
+    filter: invert(100%);
+}
+
 .gradient-text2 {
     background-color: #45CAFF;
     background-image: linear-gradient(45deg, #E81CFF 0.3%, #45CAFF 103.65%);
     background-size: 100%;
     background-repeat: repeat;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
 }
 
 .gradient-text2:hover {
